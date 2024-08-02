@@ -5,7 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('img.jpeg');
+    background-size: cover;
+    background-position: center;
 }
+
 
 #weather-app {
     text-align: center;
@@ -13,7 +17,11 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-color: aquamarine;
+    background-position: center;
 }
+
 
 #city-input {
     padding: 8px;
